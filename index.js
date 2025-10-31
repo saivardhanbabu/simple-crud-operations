@@ -18,4 +18,4 @@ app.delete("/items/:id",(r,s)=>{
  a=a.filter(x=>x.id!=r.params.id)
  s.json({m:"deleted"})
 })
-app.listen(5000,()=>console.log("Server running on port 5000"))
+app.listen(6000,()=>console.log("Server running on port 5000"))
